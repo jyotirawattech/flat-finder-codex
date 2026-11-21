@@ -61,7 +61,10 @@ def archive(path, pairs):
             info.external_attr = 0o100644 << 16
             z.writestr(info, body)
             manifest[name] = hashlib.sha256(body).hexdigest()
-        z.writestr("RELEASE-MANIFEST.json", json.dumps({"version": VERSION, "files": manifest}, indent=2))
+        info = zipfile.ZipInfo("RELEASE-MANIFEST.json", (2026, 1, 1, 0, 0, 0))
+        info.compress_type = zipfile.ZIP_DEFLATED
+        info.external_attr = 0o100644 << 16
+        z.writestr(info, json.dumps({"version": VERSION, "files": manifest}, indent=2))
 
 
 def build():
