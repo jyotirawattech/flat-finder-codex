@@ -1,0 +1,265 @@
+{
+  "listings": [
+    {
+      "id": "example-1",
+      "title": "Example Cedar Studio",
+      "kind": "entire_flat",
+      "area": "Illustrative central Pune point",
+      "source_url": "https://example.org/rentals/synthetic-1",
+      "source_platform": "Synthetic example",
+      "source_checked_at": "2026-11-21T18:30:00+05:30",
+      "rent": 22000,
+      "maintenance": 1000,
+      "deposit": 50000,
+      "advertised_availability": "Example only; not an available home",
+      "furnishing": "Illustrative furnishing",
+      "notes": "Entirely synthetic record. No real property, price, vacancy or contact is asserted. Map point is for demonstration only.",
+      "coordinates": {
+        "lat": 18.522,
+        "lng": 73.858,
+        "precision": "advertised_area",
+        "source_url": "https://www.openstreetmap.org/?mlat=18.522&mlon=73.858"
+      },
+      "walk": {
+        "anchor_id": "example-anchor",
+        "metres": 650,
+        "minutes": 8,
+        "status": "estimate",
+        "exact_entrance": false,
+        "legitimate": false,
+        "checked_at": "2026-11-21T18:30:00+05:30",
+        "restriction_note": "Synthetic route measurement; not a real walking check."
+      },
+      "availability": {
+        "status": "unconfirmed"
+      },
+      "disposition": "active",
+      "contact": {
+        "status": "none",
+        "evidence_note": "Synthetic conversation state for demonstrating no-repeat handling."
+      },
+      "demo": true
+    },
+    {
+      "id": "example-2",
+      "title": "Example Terrace 1BHK",
+      "kind": "entire_flat",
+      "area": "Illustrative central Pune point",
+      "source_url": "https://example.org/rentals/synthetic-2",
+      "source_platform": "Synthetic example",
+      "source_checked_at": "2026-11-21T18:30:00+05:30",
+      "rent": 26000,
+      "maintenance": null,
+      "deposit": 65000,
+      "advertised_availability": "Example only; not an available home",
+      "furnishing": "Illustrative furnishing",
+      "notes": "Entirely synthetic record. No real property, price, vacancy or contact is asserted. Map point is for demonstration only.",
+      "coordinates": {
+        "lat": 18.516,
+        "lng": 73.851,
+        "precision": "advertised_area",
+        "source_url": "https://www.openstreetmap.org/?mlat=18.516&mlon=73.851"
+      },
+      "walk": {
+        "anchor_id": "example-anchor",
+        "metres": 770,
+        "minutes": 10,
+        "status": "estimate",
+        "exact_entrance": false,
+        "legitimate": false,
+        "checked_at": "2026-11-21T18:30:00+05:30",
+        "restriction_note": "Synthetic route measurement; not a real walking check."
+      },
+      "availability": {
+        "status": "unconfirmed"
+      },
+      "disposition": "active",
+      "contact": {
+        "status": "sent",
+        "evidence_note": "Synthetic conversation state for demonstrating no-repeat handling."
+      },
+      "demo": true
+    },
+    {
+      "id": "example-3",
+      "title": "Example Courtyard Room",
+      "kind": "private_room",
+      "area": "Illustrative central Pune point",
+      "source_url": "https://example.org/rentals/synthetic-3",
+      "source_platform": "Synthetic example",
+      "source_checked_at": "2026-11-21T18:30:00+05:30",
+      "rent": 17000,
+      "maintenance": 2000,
+      "deposit": 35000,
+      "advertised_availability": "Example only; not an available home",
+      "furnishing": "Illustrative furnishing",
+      "notes": "Entirely synthetic record. No real property, price, vacancy or contact is asserted. Map point is for demonstration only.",
+      "coordinates": {
+        "lat": 18.526,
+        "lng": 73.855,
+        "precision": "advertised_area",
+        "source_url": "https://www.openstreetmap.org/?mlat=18.526&mlon=73.855"
+      },
+      "walk": {
+        "anchor_id": "example-anchor",
+        "metres": 890,
+        "minutes": 12,
+        "status": "estimate",
+        "exact_entrance": false,
+        "legitimate": false,
+        "checked_at": "2026-11-21T18:30:00+05:30",
+        "restriction_note": "Synthetic route measurement; not a real walking check."
+      },
+      "availability": {
+        "status": "unconfirmed"
+      },
+      "disposition": "active",
+      "contact": {
+        "status": "none",
+        "evidence_note": "Synthetic conversation state for demonstrating no-repeat handling."
+      },
+      "demo": true
+    },
+    {
+      "id": "example-4",
+      "title": "Example Garden 2BHK",
+      "kind": "entire_flat",
+      "area": "Illustrative central Pune point",
+      "source_url": "https://example.org/rentals/synthetic-4",
+      "source_platform": "Synthetic example",
+      "source_checked_at": "2026-11-21T18:30:00+05:30",
+      "rent": 30000,
+      "maintenance": 1000,
+      "deposit": 70000,
+      "advertised_availability": "Example only; not an available home",
+      "furnishing": "Illustrative furnishing",
+      "notes": "Entirely synthetic record. No real property, price, vacancy or contact is asserted. Map point is for demonstration only.",
+      "coordinates": {
+        "lat": 18.53,
+        "lng": 73.862,
+        "precision": "advertised_area",
+        "source_url": "https://www.openstreetmap.org/?mlat=18.53&mlon=73.862"
+      },
+      "walk": {
+        "anchor_id": "example-anchor",
+        "metres": 1010,
+        "minutes": 14,
+        "status": "estimate",
+        "exact_entrance": false,
+        "legitimate": false,
+        "checked_at": "2026-11-21T18:30:00+05:30",
+        "restriction_note": "Synthetic route measurement; not a real walking check."
+      },
+      "availability": {
+        "status": "unconfirmed"
+      },
+      "disposition": "active",
+      "contact": {
+        "status": "none",
+        "evidence_note": "Synthetic conversation state for demonstrating no-repeat handling."
+      },
+      "demo": true
+    },
+    {
+      "id": "example-5",
+      "title": "Example Archive Room",
+      "kind": "private_room",
+      "area": "Illustrative central Pune point",
+      "source_url": "https://example.org/rentals/synthetic-5",
+      "source_platform": "Synthetic example",
+      "source_checked_at": "2026-11-21T18:30:00+05:30",
+      "rent": 16000,
+      "maintenance": 1000,
+      "deposit": 30000,
+      "advertised_availability": "Example only; not an available home",
+      "furnishing": "Illustrative furnishing",
+      "notes": "Entirely synthetic record. No real property, price, vacancy or contact is asserted. Map point is for demonstration only.",
+      "coordinates": {
+        "lat": 18.524,
+        "lng": 73.863,
+        "precision": "advertised_area",
+        "source_url": "https://www.openstreetmap.org/?mlat=18.524&mlon=73.863"
+      },
+      "walk": {
+        "anchor_id": "example-anchor",
+        "metres": 1130,
+        "minutes": 16,
+        "status": "estimate",
+        "exact_entrance": false,
+        "legitimate": false,
+        "checked_at": "2026-11-21T18:30:00+05:30",
+        "restriction_note": "Synthetic route measurement; not a real walking check."
+      },
+      "availability": {
+        "status": "unconfirmed"
+      },
+      "disposition": "closed",
+      "contact": {
+        "status": "closed",
+        "evidence_note": "Synthetic conversation state for demonstrating no-repeat handling."
+      },
+      "demo": true
+    },
+    {
+      "id": "example-6",
+      "title": "Example Pending Studio",
+      "kind": "entire_flat",
+      "area": "Illustrative central Pune point",
+      "source_url": "https://example.org/rentals/synthetic-6",
+      "source_platform": "Synthetic example",
+      "source_checked_at": "2026-11-21T18:30:00+05:30",
+      "rent": 24000,
+      "maintenance": 1000,
+      "deposit": 60000,
+      "advertised_availability": "Example only; not an available home",
+      "furnishing": "Illustrative furnishing",
+      "notes": "Entirely synthetic record. No real property, price, vacancy or contact is asserted. Map point is for demonstration only.",
+      "coordinates": {
+        "lat": 18.518,
+        "lng": 73.859,
+        "precision": "advertised_area",
+        "source_url": "https://www.openstreetmap.org/?mlat=18.518&mlon=73.859"
+      },
+      "walk": {
+        "anchor_id": "example-anchor",
+        "metres": 1250,
+        "minutes": 18,
+        "status": "estimate",
+        "exact_entrance": false,
+        "legitimate": false,
+        "checked_at": "2026-11-21T18:30:00+05:30",
+        "restriction_note": "Synthetic route measurement; not a real walking check."
+      },
+      "availability": {
+        "status": "unconfirmed"
+      },
+      "disposition": "held",
+      "contact": {
+        "status": "unknown",
+        "evidence_note": "Synthetic conversation state for demonstrating no-repeat handling."
+      },
+      "demo": true
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-11-21T18:30:00+05:30",
+      "title": "Synthetic workspace loaded",
+      "detail": "Six made-up records demonstrate costs, missing evidence, exclusions and protected contact states. No live platform search or message took place."
+    }
+  ],
+  "access": [
+    {
+      "channel": "Facebook / Messenger",
+      "state": "Not connected in demo",
+      "detail": "Codex uses the browser and tools available in your own session. This page has no social-account connection.",
+      "checked_at": null
+    },
+    {
+      "channel": "WhatsApp",
+      "state": "Not connected in demo",
+      "detail": "No messages are sent from the viewer. Verify identity, full history and permission in Codex.",
+      "checked_at": null
+    }
+  ]
+}

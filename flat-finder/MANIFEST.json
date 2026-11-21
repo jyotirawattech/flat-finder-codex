@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "files": {
+    "SKILL.md": "1811c856e9cc12ef0a35c2c02dc8292ed41975309c72cfec69a5db75de0f8bb0",
+    "references/data-contract.md": "41295f80c6687ca142a038be685d4b7072fe179762e16b63b85cbcfb25d61876",
+    "agents/openai.yaml": "3941ecd3a0daf3c43cc8b798af2ff37ea76f4963190746aa0ebcd2825d20b2c1",
+    "scripts/ff_core.py": "1b842788c7b703cb5294a6461778ecd1db61320bf91efeee2b33666105979a38",
+    "scripts/flat_finder.py": "4a0560313a97216779e1ee5bff72897a6c60d2ae43316a5da5c19f0e8f61e60e",
+    "scripts/ff_server.py": "bfa906bf70f7759a94811c39bb882cb2ad4af80dc259db714735098fde922f71",
+    "assets/viewer/index.html": "2fc52b7dac88c7a1ca227320efd4a66b9368e05a02e0308afedbfe59d4c796ac",
+    "assets/viewer/style.css": "84bf3444fed03e95273558cc8a2e4fe02df0c654ea72158a8d4e83d34445ccc6",
+    "assets/viewer/app.js": "fe768b402446272ae9638c6653ee9eaebf935f5f759161bdef405cdc8e1da021",
+    "assets/examples/profile.json": "8bf181aedcce6c5c858d1eae9715f5c01db6bb1a5fccbc6370d689a244d618b5",
+    "assets/examples/listings.json": "8c28160e0011e1206ef1a17b0cb2462f29783027cc445f03ee93d2961fe239df",
+    "assets/viewer/vendor/leaflet.js": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a",
+    "assets/viewer/vendor/provenance.json": "aed35bb01217a668dba62d9dd1492ff23890a21b06da9a717f85b17ce798aa68",
+    "assets/viewer/vendor/leaflet.css": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6",
+    "assets/viewer/vendor/LEAFLET-LICENSE.txt": "53e8dc25862014e4324741ca18fbe3611e11d42ef69f59f86ea8c5389647d4cb",
+    "assets/viewer/vendor/images/layers.png": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+    "assets/viewer/vendor/images/marker-icon.png": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+    "assets/viewer/vendor/images/marker-icon-2x.png": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+    "assets/viewer/vendor/images/marker-shadow.png": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+    "assets/viewer/vendor/images/layers-2x.png": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flat Finder for Codex"
+  short_description: "Find rentals with sourced costs and commute checks"
+  default_prompt: "Use $flat-finder to find rentals for my saved profile and show a clickable, verified shortlist."

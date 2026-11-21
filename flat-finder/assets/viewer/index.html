@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A rental research skill for Codex. Keep the source, costs, commute and conversation context together.">
+<title>Flat Finder · for Codex</title>
+<link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="style.css">
+<script defer src="vendor/leaflet.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#results">Skip to shortlist</a>
+<aside class="sidebar">
+<a class="brand" href="#"><span class="brand-mark">⌂</span><span>flat finder<small>FOR CODEX</small></span></a>
+<div class="workspace-label">YOUR RENTAL WORKSPACE</div>
+<nav aria-label="Main navigation"><button class="nav active" data-view="shortlist">⌑ <span>Shortlist</span><span id="total-pill" class="pill">—</span></button><button class="nav" data-view="research">◷ <span>Research log</span></button><button class="nav" data-view="guide">↗ <span>Use in Codex</span></button></nav>
+<div class="side-rule"></div><p class="eyebrow">SEARCH PROFILE</p><h2 id="profile-name">Loading…</h2><p class="muted small" id="profile-city"></p>
+<div id="profile-facts" class="profile-facts"></div>
+<div class="side-rule"></div><p class="eyebrow">COMMUTE ANCHORS</p><div id="anchors"></div>
+<div class="sidebar-bottom"><span class="local-dot"></span><span id="mode-label">Local workspace</span><p>Your shortlist stays with you.<br>No account or API key required.</p></div>
+</aside>
+<main>
+<header class="topbar"><div><span class="workspace-label">FIND YOUR NEXT PLACE</span><span class="slash">/</span><span id="city-top">Rental research</span></div><div class="header-actions"><button id="refresh" class="button subtle">↻ Refresh</button><a id="download-skill" class="button dark hidden" href="downloads/flat-finder-skill.zip">Get the Codex skill ↗</a><button id="copy-prompt" class="button dark">Copy Codex prompt ↗</button></div></header>
+<div id="notice" class="notice hidden" role="status"></div>
+<section id="shortlist-view" class="view">
+<div class="intro"><div><p class="eyebrow">A PLACE THAT FITS YOUR DAY</p><h1>Less tab hopping.<br>More clarity.</h1><p class="intro-copy">The listing, the real cost, the journey.<br>One shortlist. Every unknown stays visible.</p></div><div class="intro-note"><span>BUILT AROUND YOUR COMMUTE</span><p>Nearby on a map<br>is only the beginning.</p><small>A radius is not a verified walking route.</small></div></div>
+<div id="stats" class="stats"></div>
+<section class="map-section" aria-label="Commute map"><div id="map"></div><div class="map-caption"><span><i class="legend-dot"></i> Property point <i class="legend-anchor"></i> Verified anchor</span><span>Dashed = preferred radius · outer = maximum</span></div><div id="map-fallback" class="hidden">Map unavailable. All source and route links remain available below.</div></section>
+<section id="results" class="results" tabindex="-1"><div class="section-heading"><div><p class="eyebrow">FOLLOW THE EVIDENCE</p><h2>Your shortlist <span id="visible-count"></span></h2></div><div class="exports"><a id="export-md" href="api/report.md" class="button subtle">Export Markdown ↗</a><a id="export-csv" href="api/export.csv" class="button subtle">Export CSV ↓</a></div></div>
+<div class="filters"><label class="search"><span class="sr-only">Search listings</span><input id="search" type="search" placeholder="Search property, area or notes…"></label><label><span class="sr-only">Housing type</span><select id="kind"><option value="all">All home types</option><option value="entire_flat">Entire flats</option><option value="room">Private rooms</option></select></label><label><span class="sr-only">Research status</span><select id="status"><option value="active">Active shortlist</option><option value="all">All, including held</option><option value="ready">Evidence complete</option><option value="provisional">Needs verification</option><option value="held">Held</option><option value="excluded">Excluded</option><option value="closed">Closed</option></select></label><label><span class="sr-only">Sort listings</span><select id="sort"><option value="fit">Research priority</option><option value="cost">Monthly cost</option><option value="distance">Radius distance</option></select></label></div>
+<div id="listing-list" class="listing-list"></div><p id="empty" class="empty hidden">No matches for these filters. Try another housing type or status.</p>
+</section></section>
+<section id="research-view" class="view hidden"><div class="page-title"><p class="eyebrow">WHAT HAS ACTUALLY BEEN CHECKED</p><h1>Research, with receipts.</h1><p>Imported evidence and current access gaps. A search plan is not a completed search.</p></div><h2>Channel access</h2><div id="access-list"></div><h2 class="log-heading">Research log</h2><div id="events"></div></section>
+<section id="guide-view" class="view hidden"><div class="page-title"><p class="eyebrow">AN INSTALLABLE CODEX SKILL</p><h1>Your next search<br>starts in Codex.</h1><p>Research with your available browser and web tools. Keep the evidence here.</p></div><div class="guide-grid"><article><span class="step">01</span><h2>Install once</h2><p>Download the skill package, unzip it and copy the <code>flat-finder</code> folder into <code>~/.codex/skills/</code>. Open a new Codex chat if it is not discovered yet.</p></article><article><span class="step">02</span><h2>Make it yours</h2><p>Tell Codex your city, budget, move-in deadline, accepted home types and actual commute entrances. Save the profile outside the skill folder.</p></article><article><span class="step">03</span><h2>Search with context</h2><p>Use <code>$flat-finder</code> to research Facebook and rental sites, verify source links, compare costs and map the practical route.</p></article><article><span class="step">04</span><h2>Keep conversations intact</h2><p>Check the current account, recipient and complete available history before outreach. Preserve closed, held and already-sent requests.</p></article></div><div class="prompt"><p class="eyebrow">TRY THIS IN CODEX</p><p id="prompt-text"></p><button class="button dark" id="guide-copy">Copy prompt ↗</button></div><p class="muted small">The local helpers assess and display your saved evidence. They do not scrape authenticated accounts, send messages, book visits, or run background searches.</p></section>
+<footer><span>flat finder / for Codex</span><span id="checked-at">Loading saved evidence…</span><span>Map © OpenStreetMap contributors · Leaflet</span></footer>
+</main>
+<dialog id="details"><button id="close-detail" class="close" aria-label="Close property details">×</button><div id="detail-content"></div></dialog>
+<div id="toast" role="status" class="toast hidden"></div>
+</body></html>

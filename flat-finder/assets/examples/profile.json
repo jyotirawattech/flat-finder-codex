@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "name": "My next place",
+  "city": "Pune \u00b7 example search",
+  "currency": "INR",
+  "timezone": "Asia/Kolkata",
+  "monthly_limit": 30000,
+  "strict_monthly_limit": true,
+  "move_in_before": "2027-03-01",
+  "prefer_radius_m": 1000,
+  "max_radius_m": 2000,
+  "freshness_hours": 48,
+  "accepted_kinds": [
+    "entire_flat",
+    "private_room"
+  ],
+  "excluded_areas": [
+    "Example excluded district"
+  ],
+  "source_priority": [
+    "facebook",
+    "housing",
+    "nobroker",
+    "magicbricks"
+  ],
+  "search_terms": [
+    "Pune entire flat near my commute anchor"
+  ],
+  "references": [
+    "Example apartment name"
+  ],
+  "unverified_anchors": [],
+  "room_anchor_ids": [],
+  "anchors": [
+    {
+      "id": "example-anchor",
+      "name": "Example commute anchor",
+      "lat": 18.5204,
+      "lng": 73.8567,
+      "verified": true,
+      "access_confirmed": true,
+      "source_url": "https://www.openstreetmap.org/?mlat=18.5204&mlon=73.8567#map=15/18.5204/73.8567"
+    }
+  ],
+  "demo": true
+}
