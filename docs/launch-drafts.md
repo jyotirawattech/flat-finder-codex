@@ -1,4 +1,4 @@
-# Launch drafts — not posted
+# Launch record and reference copy
 
 The source and synthetic demo were published on 21 November 2026:
 
@@ -6,12 +6,29 @@ The source and synthetic demo were published on 21 November 2026:
 - Source: https://github.com/jyotirawattech/flat-finder-codex
 - Install/release: https://github.com/jyotirawattech/flat-finder-codex/releases/tag/v1.0.0
 
-LinkedIn, X and community copy below is still unposted. Do not post placeholders
-or claim an audience, installs, success rate, live listing feed or secured rental.
+The first real private workflow run and public launch were completed on
+21 November 2026. The private import was corrected to preserve newer consumed
+delivery receipts. The run retained provisional availability and commute gaps;
+it did not establish a secured rental. All 18 packaged automated tests passed.
+
+Verified launch posts:
+
+- [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7529971132611952640/)
+- [X](https://x.com/jyotirawattech/status/2124205774885028122)
+- [r/SideProject](https://www.reddit.com/r/SideProject/comments/1y23pac/i_built_a_rentalsearch_skill_for_codex_that_keeps/)
+- [r/coolgithubprojects](https://www.reddit.com/r/coolgithubprojects/comments/1y23qjs/flat_finder_for_codex_mit_rentalresearch_skill/)
+
+Both Reddit submissions were visible in their community feeds and at their
+permalinks when checked. Later moderation is outside this publication receipt.
+Publication does not establish installs, readership or user outcomes.
+
+The copy below is historical preparation, not an exact transcript of the published
+posts or a queue to replay. Do not post placeholders or claim an audience,
+installs, success rate, live listing feed or secured rental.
 Use public display name **Jyoti Rawat Tech** and handle **jyotirawattech** only on
 an exact verified account; check availability before creating or renaming anything.
 
-## Future release and promotion workflow
+## Release and promotion checklist
 
 1. Publish the reviewed source package to a chosen public Git repository with its
    MIT license, Leaflet notice, install instructions and verification notes.

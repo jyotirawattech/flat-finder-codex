@@ -90,8 +90,9 @@ Outputs: `dist/flat-finder-codex-1.0.0.zip`, `dist/flat-finder-skill.zip` and
 `dist/flat-finder-demo-site.zip`. The site package is built **only** from the bundled
 synthetic fixture. It contains no arbitrary private-workspace export option.
 `site/` can be hosted as static files after the owner approves the destination.
-The release includes SHA-256 manifests. Review [launch drafts](docs/launch-drafts.md)
-before posting. The source and synthetic demo links above are published; social launch posts remain drafts.
+The release includes SHA-256 manifests. The [launch record](docs/launch-drafts.md)
+links the verified LinkedIn, X and two developer-community posts. The public demo
+contains synthetic listings; private search data is not part of this repository.
 
 Map: vendored [Leaflet 1.9.4](https://leafletjs.com/reference-1.9.4.html), BSD-2-Clause,
 with recorded npm tarball integrity and file digests. Tiles and attribution follow
