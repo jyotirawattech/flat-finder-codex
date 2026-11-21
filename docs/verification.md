@@ -1,6 +1,6 @@
 # Verification
 
-Version 1.0.0 is a local implementation, not a published service. Verification
+Version 1.0.0 is a local Codex workflow with a [published synthetic demo](https://flat-finder-codex.pages.dev) and [public release](https://github.com/jyotirawattech/flat-finder-codex/releases/tag/v1.0.0). Verification
 covers the deterministic helpers and viewer behavior; it does not establish real
 provider availability, recipient identity, message delivery or rental success.
 
@@ -31,3 +31,9 @@ to the ZIPs. Tests are not a comprehensive penetration test or third-party audit
 No live accounts, credentials, deployment, public posts, visits or payments are
 part of these checks. Existing housing access requests and operations remain in
 the separate private project, with their original owners and receipts.
+
+Production readback on 21 November 2026 confirmed the demo HTML, JSON, JavaScript,
+CSV and downloadable skill match the reviewed build. The live site sends CSP,
+nosniff and referrer headers. A browser skill download matched the release SHA-256.
+Pages was deployed through the signed-in dashboard Direct Upload workflow; the CLI
+OAuth callback did not complete. No private profile or housing records were hosted.

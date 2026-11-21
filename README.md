@@ -4,6 +4,8 @@ A rental-search skill for Codex, with a local map and a source-linked shortlist.
 Keep costs, commute evidence and conversation state together while Codex researches
 with the web and browser tools available in your session.
 
+[Try the synthetic demo](https://flat-finder-codex.pages.dev) · [Download the skill](https://github.com/jyotirawattech/flat-finder-codex/releases/download/v1.0.0/flat-finder-skill.zip) · [Release and checksums](https://github.com/jyotirawattech/flat-finder-codex/releases/tag/v1.0.0)
+
 Inspired by the map, filters, exports and research log in [Flat Finder](https://flat-finder.pages.dev/).
 This is an independent implementation. No original code, property dataset, branding
 assets or endorsement is claimed. Example records here are completely synthetic.
@@ -89,7 +91,7 @@ Outputs: `dist/flat-finder-codex-1.0.0.zip`, `dist/flat-finder-skill.zip` and
 synthetic fixture. It contains no arbitrary private-workspace export option.
 `site/` can be hosted as static files after the owner approves the destination.
 The release includes SHA-256 manifests. Review [launch drafts](docs/launch-drafts.md)
-before posting; no public URL/repository or published post is implied by a local build.
+before posting. The source and synthetic demo links above are published; social launch posts remain drafts.
 
 Map: vendored [Leaflet 1.9.4](https://leafletjs.com/reference-1.9.4.html), BSD-2-Clause,
 with recorded npm tarball integrity and file digests. Tiles and attribution follow

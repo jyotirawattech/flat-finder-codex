@@ -1,12 +1,17 @@
 # Launch drafts — not posted
 
-The build is local. A hosted demo URL and a public repository/release URL still
-need to be created on the owner's chosen destinations. Do not post placeholders
+The source and synthetic demo were published on 21 November 2026:
+
+- Demo: https://flat-finder-codex.pages.dev
+- Source: https://github.com/jyotirawattech/flat-finder-codex
+- Install/release: https://github.com/jyotirawattech/flat-finder-codex/releases/tag/v1.0.0
+
+LinkedIn, X and community copy below is still unposted. Do not post placeholders
 or claim an audience, installs, success rate, live listing feed or secured rental.
 Use public display name **Jyoti Rawat Tech** and handle **jyotirawattech** only on
 an exact verified account; check availability before creating or renaming anything.
 
-## Suggested release order
+## Future release and promotion workflow
 
 1. Publish the reviewed source package to a chosen public Git repository with its
    MIT license, Leaflet notice, install instructions and verification notes.
@@ -35,8 +40,8 @@ has actually been checked. It doesn't promise a live feed or send messages itsel
 The demo uses made-up listings. The skill and local tools are available to inspect
 and adapt for your own search.
 
-[Insert verified demo link]
-[Insert verified source/install link]
+https://flat-finder-codex.pages.dev
+https://github.com/jyotirawattech/flat-finder-codex
 
 If you try it, I'd like to know where your search still loses context.
 
@@ -46,7 +51,9 @@ Built Flat Finder for Codex: a rental-search skill with a local map, source link
 cost breakdowns and conversation history safeguards. Radius isn't walkability;
 an ad isn't confirmed availability. Demo listings are synthetic.
 
-[Use one verified short release link; recheck the platform's current length limit]
+https://flat-finder-codex.pages.dev
+
+Recheck the platform’s current length limit before posting.
 
 ## Developer-community post
 
@@ -63,7 +70,10 @@ the user's session. There is no bundled account access, scraper or automatic sen
 I'm sharing the implementation and a synthetic demo. Feedback on the evidence
 model, repeated-listing handling and local workflow would be useful.
 
-[Insert verified source/install and demo links after checking community rules]
+https://github.com/jyotirawattech/flat-finder-codex
+https://flat-finder-codex.pages.dev
+
+Check the chosen community’s current rules before posting.
 
 ## Release description
 
